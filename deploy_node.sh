@@ -9,14 +9,14 @@ export PATH
 #   Intro:  https://sobaigu.com/                                  #
 #==================================================================
 
-ssr_url="https://github.com/828768/shadowsocksr.git"
+ssr_url="https://github.com/redtime1213/shadowsocksr.git"
 ssr_path="/usr/shadowsocksr"
 bbr_url="https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh"
 bbr_file="bbr_tcp_mod.sh"
-v2_installer="https://raw.githubusercontent.com/828768/Shell/master/v2ray-ssrpanel-plugin-install.sh"
-v2_config="https://raw.githubusercontent.com/828768/Shell/master/resource/v2ray-config.json"
-caddy_www="https://raw.githubusercontent.com/828768/Shell/master/resource/www.zip"
-caddy_config="https://raw.githubusercontent.com/828768/Shell/master/resource/Caddyfile"
+v2_installer="https://raw.githubusercontent.com/redtime1213/Shell/master/v2ray-ssrpanel-plugin-install.sh"
+v2_config="https://raw.githubusercontent.com/redtime1213/Shell/master/resource/v2ray-config.json"
+caddy_www="https://raw.githubusercontent.com/redtime1213/Shell/master/resource/www.zip"
+caddy_config="https://raw.githubusercontent.com/redtime1213/Shell/master/resource/Caddyfile"
 
 [ $(id -u) != "0" ] && { echo "错误: 请用root执行"; exit 1; }
 sys_bit=$(uname -m)
